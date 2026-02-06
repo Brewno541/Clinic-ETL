@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# PyCharm / IDE
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Data Folders
+data/processed/
+data/processed/duplicates/
+
+# Optional: Ignore all raw CSVs except sample ones
+# data/incoming/*.csv
+
+# Airflow
+airflow_logs/

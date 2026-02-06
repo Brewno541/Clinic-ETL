@@ -1,0 +1,4 @@
+procedure_code,description,expected_minutes,active_flag,,,
+PROC-10,Initial Consultation,30,Y,,,
+PROC-20,Follow-up Visit,45,Y,,,
+PROC-30,Specialty Evaluation,60,Y,,,

@@ -1,0 +1,4 @@
+provider_id,provider_name,specialty,active_flag,,,
+PROV-01,Dr. Alice Nguyen,Internal Medicine,Y,,,
+PROV-02,Dr. Brian Patel,Family Medicine,Y,,,
+PROV-03,Dr. Carla Gomez,Cardiology,Y,,,

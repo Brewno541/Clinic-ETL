@@ -1,0 +1,4 @@
+claim_id,appointment_id,patient_id,payer,charge_code,units,amount,claim_status,billed_at
+CLM-5001,APT-1001,PAT-001,BlueCross,PROC-10,1,350.00,PAID,2024-01-16
+CLM-5002,APT-1002,PAT-002,Aetna,PROC-20,1,500.00,DENIED,2024-01-16
+CLM-5003,APT-1004,PAT-004,United,PROC-30,1,425.00,PAID,2024-01-16
