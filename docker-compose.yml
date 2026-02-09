@@ -1,0 +1,18 @@
+services:
+  mysql8:
+    image: mysql:8.0
+    container_name: clinic-mysql8
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass123!
+      MYSQL_DATABASE: clinic_bronze
+      MYSQL_USER: etl_user
+      MYSQL_PASSWORD: etlpass123!
+      TZ: America/Los_Angeles
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql8_data:/var/lib/mysql
+
+volumes:
+  mysql8_data:
